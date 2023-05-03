@@ -38,7 +38,8 @@ There are some Key details found that follows:
 According to the pairplot it clearly visible that strength of concrete column is more depend on Type of cement used, superplasticizer, and age follows. 
 
 **4 MACHINE LEARNING MODEL PERFORMANCE**
-Linear Regression Model
+
+**Linear Regression Model**
 
 MSE:  74.33225517537028
 
@@ -47,7 +48,7 @@ MAE:  6.759545500527257
 R-squared:  0.7242065625693026
 
 
-Random Forest Regression:
+**Random Forest Regression:**
 
 MSE:  26.23927191478157
 
@@ -55,7 +56,7 @@ MAE:  3.5997819047619037
 
 R-squared:  0.9026449691324018
 
-Decision Tree Regression:
+**Decision Tree Regression:**
 
 MSE:  57.278166617589314
 
@@ -63,7 +64,7 @@ MAE:  4.780041224970553
 
 R-squared:  0.7874819965582393
 
-support vector regression (SVR):
+**support vector regression (SVR):**
 
 MSE:  82.27210986983023
 
