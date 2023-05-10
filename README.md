@@ -1,11 +1,11 @@
 # Project Focus on concrete strength prediction.
 ![giphy](https://user-images.githubusercontent.com/129647680/235920988-7b8cc1ce-93a0-4607-8d6e-4a403a4aa7df.gif)
 
-**1 INTRODUCTION**
+# **1 INTRODUCTION**
 
 The Compressive Strength of Concrete determines the quality of Concrete. Project focuses on predicting the compressive strength of concrete.Concrete is the most important material in civil engineering. Compressive strength of concrete is a highly non-linear function of age and components.Goal is to develop a machine learning model to predict compressive strength accurately.
 
-**2 SOLUTION STRATERGY** 
+# **2 SOLUTION STRATERGY** 
 
 Problem solution follows the following steps:
 
@@ -30,48 +30,38 @@ firstly selected the best model to applied in the project. it's important to mak
 **Step 7 Conclusion :**
 In conclusion stage which the generation capacity model is tested using unseen data.
 
-**3 DATA INSIGHTS**
+# **3 DATA INSIGHTS**
 
 There are some Key details found that follows:
 ![Picture1](https://user-images.githubusercontent.com/129647680/235941184-1f42a310-1c22-43b4-936b-531d8a355770.png)
 
 According to the pairplot it clearly visible that strength of concrete column is more depend on Type of cement used, superplasticizer, and age follows. 
 
-**4 MACHINE LEARNING MODEL PERFORMANCE**
+# **4 MACHINE LEARNING MODEL PERFORMANCE**
 
-**Linear Regression Model**
-
-MSE:  74.33225517537028
-
-MAE:  6.759545500527257
-
-R-squared:  0.7242065625693026
+| Linear Regression Model | MSE | MAE | R-squared |
+| ------------- | ------------- | ------------- | ------------- |
+| Results  | 74.33225517537028  | 6.759545500527257  | 0.7242065625693026  |
 
 
-**Random Forest Regression:**
+| Random Forest Regression | MSE | MAE | R-squared |
+| ------------- | ------------- | ------------- | ------------- |
+| Results  | 26.23927191478157  | 3.5997819047619037  | 0.9026449691324018  |
 
-MSE:  26.23927191478157
 
-MAE:  3.5997819047619037
+| Decision Tree Regression | MSE | MAE | R-squared |
+| :--------- | :---------: | :----------: | ---------: |
+| Results  | 57.278166617589314  | 4.780041224970553  | 0.7874819965582393  |
 
-R-squared:  0.9026449691324018
 
-**Decision Tree Regression:**
+| Support Vector Regression | MSE | MAE | R-squared |
+| ------------- | ------------- | ------------- | ------------- |
+| Results  | 82.27210986983023  | 7.12527978537328  | 0.6947474830119944  |
 
-MSE:  57.278166617589314
 
-MAE:  4.780041224970553
+# **5 CONCLUSION**
 
-R-squared:  0.7874819965582393
-
-**support vector regression (SVR):**
-
-MSE:  82.27210986983023
-
-MAE:  7.12527978537328
-
-R-squared:  0.6947474830119944
-
-**5 CONCLUSION**
-
-The Compressive Strength Data has been analyzed and Machine Learning techniques were applied to predict the Compressive Strength of Concrete. Different models, including Linear Regression and its variations, Decision Trees, and Random Forests were employed to make predictions, and their performances were compared. Among them, the Random Forest Regressor exhibited the lowest Root Mean Square Error (RMSE) of 5.35, indicating it to be a suitable model for this task. Additionally, the algorithm's performance could be further enhanced by fine-tuning the hyperparameters through techniques such as grid search or random search.
+* Analyzed Compressive Strength Data and applied Machine Learning techniques to predict Compressive Strength of Concrete.
+* Employed different models, including Linear Regression and its variations, Decision Trees, and Random Forests, to make predictions and compared their performances.
+* Identified Random Forest Regressor as the best-performing model with the lowest Root Mean Square Error (RMSE) of 5.35.
+* Suggested that the model's performance could be improved further by fine-tuning the hyperparameters using techniques such as grid search or random search.
