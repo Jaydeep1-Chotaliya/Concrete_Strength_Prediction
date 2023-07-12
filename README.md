@@ -1,5 +1,5 @@
 # Project Focus on concrete strength prediction.
-![giphy](https://user-images.githubusercontent.com/129647680/235920988-7b8cc1ce-93a0-4607-8d6e-4a403a4aa7df.gif)
+![darryl-low-pXqZs5TG2HU-unsplash](https://github.com/Jaydeep1-Chotaliya/Concrete_Strength_Prediction/assets/129647680/1eea7415-cf06-418a-87aa-4cb0f7234d66)
 
 # **1 INTRODUCTION**
 
