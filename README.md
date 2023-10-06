@@ -3,14 +3,20 @@
 
 # **1 INTRODUCTION**
 
-The Compressive Strength of Concrete determines the quality of Concrete. Project focuses on predicting the compressive strength of concrete.Concrete is the most important material in civil engineering. Compressive strength of concrete is a highly non-linear function of age and components.Goal is to develop a machine learning model to predict compressive strength accurately.
+The Compressive Strength of Concrete determines the quality of Concrete. The project focuses on predicting the compressive strength of concrete. Concrete is a fundamental construction material known for its strength and durability, making it a cornerstone of modern infrastructure. The power of concrete plays a critical role in ensuring the safety and stability of structures. Predicting concrete strength accurately is essential for engineers and builders to design and construct resilient and safe buildings. Traditional methods of predicting concrete strength often rely on extensive testing and empirical formulas, which can be time-consuming and costly.
 
-# **2 SOLUTION STRATERGY** 
+In recent years, Machine Learning (ML) has emerged as a powerful tool for predicting concrete strength more efficiently and accurately. ML models can analyze vast amounts of data and identify complex patterns that might not be apparent through conventional approaches. This capability has opened up new possibilities for optimizing concrete mixtures and construction processes, ultimately leading to more efficient and cost-effective projects.
 
-Problem solution follows the following steps:
+## **Outline of the problem to solve** ##
 
-**Step 1 Data description :**
-The dataset for this project is related to the compressive strength of concrete. It contains information about the various components that make up the concrete mixture, such as cement, blast furnace slag, fly ash, water, superplasticizer, coarse aggregate, fine aggregate, and age.
+The primary purpose of this project is to develop an accurate and reliable Machine Learning (ML) model for predicting concrete strength. The significance of accurately predicting concrete strength lies in its pivotal role in the construction industry. Concrete strength is a fundamental factor that directly impacts the safety, durability, and overall quality of structures. Engineers, architects, and construction professionals rely on precise concrete strength predictions to design structures that meet safety standards, optimize material usage, and ensure longevity.
+
+# **2 SOLUTION STRATEGY** 
+
+The problem solution follows the following steps:
+
+**Step 1 Data Description :**
+The dataset used in this project encapsulates essential parameters related to concrete mixtures, with a primary focus on predicting concrete strength. It includes pivotal columns such as 'Cement,' 'Slag,' 'Flyash,' 'Water,' 'Superplasticizer,' 'Coarse Aggregate,' 'Fine Aggregate,' 'Age,' and the target variable 'Strength.' Each column signifies a vital aspect of the concrete mixture, such as the quantity of cement, supplementary materials like slag and fly ash, water content, additives like superplasticizers, and aggregate proportions. The 'Age' column indicates the concrete's age at the time of testing, while 'csMPA' represents the compressive strength of the concrete. Understanding the relationship between these parameters and concrete strength is crucial for developing accurate predictive models.
 
 **Step 2 Data Filtering :**
 This step involves finding and removing the NaN value and unnecessary rows and columns that are not a part of the business. Removing the Outliers.
@@ -33,9 +39,10 @@ In conclusion stage which the generation capacity model is tested using unseen d
 # **3 DATA INSIGHTS**
 
 There are some Key details found that follows:
-![Picture1](https://user-images.githubusercontent.com/129647680/235941184-1f42a310-1c22-43b4-936b-531d8a355770.png)
 
 According to the pairplot it clearly visible that strength of concrete column is more depend on Type of cement used, superplasticizer, and age follows. 
+
+![download](https://github.com/Jaydeep1-Chotaliya/Concrete_Strength_Prediction/assets/129647680/c6d8986c-99da-4162-b23b-21c576e91131)
 
 # **4 MACHINE LEARNING MODEL PERFORMANCE**
 
