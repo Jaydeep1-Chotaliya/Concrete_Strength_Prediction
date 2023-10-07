@@ -84,7 +84,7 @@ According to the observed plot, it is evident that the strength of a concrete co
 
 ![download (1)](https://github.com/Jaydeep1-Chotaliya/Concrete_Strength_Prediction/assets/129647680/2000e82a-bb43-4687-a363-d794fa765fcd)
 
-he distribution of concrete strength within the dataset indicates a predominant concentration of data points ranging between 30 csMPa to 50 csMPa. This interval appears to be the most common range for concrete compressive strength. Understanding this distribution is crucial, as it provides valuable insights into the typical strength levels observed within the dataset. However, it's essential to note that concrete strength can vary significantly based on multiple factors, and analyzing a broader range of strengths is important for a comprehensive understanding of the material's behavior and properties.
+The distribution of concrete strength within the dataset indicates a predominant concentration of data points ranging between 30 csMPa to 50 csMPa. This interval appears to be the most common range for concrete compressive strength. Understanding this distribution is crucial, as it provides valuable insights into the typical strength levels observed within the dataset. However, it's essential to note that concrete strength can vary significantly based on multiple factors, and analyzing a broader range of strengths is important for a comprehensive understanding of the material's behavior and properties.
 
 # **4 MACHINE LEARNING MODEL PERFORMANCE**
 
