@@ -76,7 +76,7 @@ In our project, we employed a range of regression models, including linear regre
 
 There are some Key details found that follows:
 
-* ## **Glimpse Of Deploy of Model :** ##
+* ## **Deployment of our project :** ##
 
 ![Concrete_strength_gif](https://github.com/Jaydeep1-Chotaliya/Concrete_Strength_Prediction/assets/129647680/4507524d-8961-4654-83ea-c9e0610e6e34)
 
