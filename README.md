@@ -76,13 +76,16 @@ In our project, we employed a range of regression models, including linear regre
 
 There are some Key details found that follows:
 
-Glimpse Of Deploy of Model :
+* ## **Glimpse Of Deploy of Model :** ##
 
 ![Concrete_strength_gif](https://github.com/Jaydeep1-Chotaliya/Concrete_Strength_Prediction/assets/129647680/4507524d-8961-4654-83ea-c9e0610e6e34)
+
 
 * Deployment transitions a project from development/testing to the live production environment.
 * Goal: Make the project fully operational for intended users and stakeholders.
 * Successful deployment ensures smooth function and value delivery.
+
+* ## Key Details ##
 
 ![download](https://github.com/Jaydeep1-Chotaliya/Concrete_Strength_Prediction/assets/129647680/c6d8986c-99da-4162-b23b-21c576e91131)
 
