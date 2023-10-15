@@ -66,7 +66,7 @@ Split the dataset into training and testing sets using the train-test split tech
 Feature Scaling (Standardization):
 Scale the features to ensure they all have a similar influence on the model. Standardization (Standard Scaler) is a common technique used for this purpose.
 
-**Step 5 Machine Learning Model :**
+**Step 6 Machine Learning Model :**
 
 A regression problem in machine learning revolves around predicting a continuous numerical outcome based on a set of input features. Unlike classification, where the goal is to assign instances to discrete classes, regression entails estimating a value that falls along a continuous spectrum. This prediction is the compressive strength of concrete. The fundamental premise of a regression model is to discern and learn the underlying patterns and relationships between the input features and the continuous target variable. Through this understanding, the model can make accurate predictions for unseen or future data points.
 
