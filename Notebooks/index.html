@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML Strength Prediction</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Concrete Strength Prediction</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+      <div class="form-group">
+        <label for="cement">Cement</label>
+        <input type="text" name="cement" placeholder="kg in a m3 mixture(104-540)" required="required" >
+      </div>
+      <div class="form-group">
+        <label for="slag">Slag</label>
+        <input type="text" name="slag" placeholder="kg in a m3 mixture(0-360)" required="required" >
+      </div>
+      <div class="form-group">
+        <label for="flyash">Flyash</label>
+        <input type="text" name="flyash" placeholder="kg in a m3 mixture(0-200)" required="required" >
+      </div>
+      <div class="form-group">
+        <label for="water">Water</label>
+        <input type="text" name="water" placeholder="kg in a m3 mixture(121-247)" required="required" >
+      </div>
+      <div class="form-group">
+        <label for="superplasticizer">Superplasticizer</label>
+        <input type="text" name="superplasticizer" placeholder="kg in a m3 mixture(0-32)" required="required" >
+      </div>
+      <div class="form-group">
+        <label for="coarseaggregate">Coarseaggregate</label>
+        <input type="text" name="coarseaggregate" placeholder="kg in a m3 mixture(800-1145)" required="required" >
+      </div>
+      <div class="form-group">
+        <label for="fineaggregate">Fineaggregate</label>
+        <input type="text" name="fineaggregate" placeholder="kg in a m3 mixture(600-1000)" required="required" >
+      </div>
+      <div class="form-group">
+        <label for="age">Age</label>
+        <input type="text" name="age" placeholder="Days(1-365)" required="required" >
+      </div>
+    
+      <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    <br>
+    <br>
+    {{ prediction_text }}
+    </form>
+ </div>
+</body>
+</html>
+</body>
+</html>
