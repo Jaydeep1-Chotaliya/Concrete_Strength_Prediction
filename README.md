@@ -74,11 +74,11 @@ In our project, we employed a range of regression models, including linear regre
 
 # **3 DATA INSIGHTS**
 
-There are some Key details found that follows:
+There are some Key details found that follow:
 
 * ## **Deployment of our project :** ##
 
-![Concrete_strength_gif](https://github.com/Jaydeep1-Chotaliya/Concrete_Strength_Prediction/assets/129647680/4507524d-8961-4654-83ea-c9e0610e6e34)
+![Diabities GIF](https://github.com/Jaydeep1-Chotaliya/Concrete_Strength_Prediction/assets/129647680/16fcbd4b-1e69-4a0a-8e26-e0312e037992)
 
 
 * Deployment transitions a project from development/testing to the live production environment.
