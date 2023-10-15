@@ -97,25 +97,12 @@ Glimpse Of Deploy of Model :
 
 # **4 MACHINE LEARNING MODEL PERFORMANCE**
 
-| Linear Regression Model | MSE | MAE | R-squared |
-| ------------- | ------------- | ------------- | ------------- |
-| Results  | 74.33225517537028  | 6.759545500527257  | 0.7242065625693026  |
-
-
-| Random Forest Regression | MSE | MAE | R-squared |
-| ------------- | ------------- | ------------- | ------------- |
-| Results  | 26.23927191478157  | 3.5997819047619037  | 0.9026449691324018  |
-
-
-| Decision Tree Regression | MSE | MAE | R-squared |
-| :--------- | :---------: | :----------: | ---------: |
-| Results  | 57.278166617589314  | 4.780041224970553  | 0.7874819965582393  |
-
-
-| Support Vector Regression | MSE | MAE | R-squared |
-| ------------- | ------------- | ------------- | ------------- |
-| Results  | 82.27210986983023  | 7.12527978537328  | 0.6947474830119944  |
-
+| **Model Name** | **Mean Squared Error (MSE)** | **Mean Absolute Error (MAE)** | **Coefficient Of Determination** |
+| ------------- | :---: | :---: | :---: |
+| Linear Regression Model  | 74.33 | 6.75 | 0.72 |
+| Random Forest Regression | 26.23 | 3.59 | 0.90 |
+| Decision Tree Regression | 57.27 | 4.78 | 0.78 |
+| Support Vector Regression | 82.27 | 7.12 | 0.69 |
 
 # **5 CONCLUSION**
 
