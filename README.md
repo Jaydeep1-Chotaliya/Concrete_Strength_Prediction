@@ -78,7 +78,7 @@ There are some Key details found that follow:
 
 * ## **Deployment of our project :** ##
 
-![Diabities GIF](https://github.com/Jaydeep1-Chotaliya/Concrete_Strength_Prediction/assets/129647680/16fcbd4b-1e69-4a0a-8e26-e0312e037992)
+![Concrete_Strength_Prediction_Video](https://github.com/Jaydeep1-Chotaliya/Concrete_Strength_Prediction/assets/129647680/6ada7331-db6a-4ab4-bc67-198ccd5af754)
 
 
 * Deployment transitions a project from development/testing to the live production environment.
