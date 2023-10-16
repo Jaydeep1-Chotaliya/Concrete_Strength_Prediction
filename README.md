@@ -1,11 +1,9 @@
 # Project Focus on concrete strength prediction.
 ![darryl-low-pXqZs5TG2HU-unsplash](https://github.com/Jaydeep1-Chotaliya/Concrete_Strength_Prediction/assets/129647680/1eea7415-cf06-418a-87aa-4cb0f7234d66)
 
-# **1 INTRODUCTION**
+# **INTRODUCTION**
 
 The Compressive Strength of Concrete determines the quality of Concrete. The project focuses on predicting the compressive strength of concrete. Concrete is a fundamental construction material known for its strength and durability, making it a cornerstone of modern infrastructure. The power of concrete plays a critical role in ensuring the safety and stability of structures. Predicting concrete strength accurately is essential for engineers and builders to design and construct resilient and safe buildings. Traditional methods of predicting concrete strength often rely on extensive testing and empirical formulas, which can be time-consuming and costly.
-
-In recent years, Machine Learning (ML) has emerged as a powerful tool for predicting concrete strength more efficiently and accurately. ML models can analyze vast amounts of data and identify complex patterns that might not be apparent through conventional approaches. This capability has opened up new possibilities for optimizing concrete mixtures and construction processes, ultimately leading to more efficient and cost-effective projects.
 
 ## **Outline of the problem to solve** ##
 
@@ -13,92 +11,56 @@ In recent years, Machine Learning (ML) has emerged as a powerful tool for predic
 * Importance: Vital in the construction industry, impacting safety, durability, and overall quality of structures.
 * Applications: Design structures meeting safety standards, Optimize material usage, and Ensure structural longevity.
 
-# **2 SOLUTION STRATEGY** 
+# **Methodology:** 
 
-The problem solution follows the following steps:
+1. The dataset used focuses on concrete mixture parameters essential for predicting strength.
 
-**Step 1 Data Description :**
+| **Attribute** | **Feature's Meaning** |
+| ------------- | :--- |
+| Cement  | Amount of cement is mixed (kg in a m3 mixture) |
+| Slag  | Amount of Slag is mixed (kg in a m3 mixture) |
+| Flyash  | Amount of FlyAsh is mixed (kg in a m3 mixture) |
+| Water  | Amount of Water used (kg in a m3 mixture) |
+| Superplasticizer  | Amount of Superplasticizer is mixed (kg in a m3 mixture) |
+| Coarseaggregate  | Amount of Coarse aggregate is mixed (kg in a m3 mixture) |
+| Fineaggregate  | Amount of Fineaggregate is mixed (kg in a m3 mixture) |
+| Age  | Time till inspection Day (Days 0-360) |
+| csMPa  | Compressive Strength of Column (Target) |
 
-The dataset used focuses on concrete mixture parameters essential for predicting strength. Key columns include 'Cement,' 'Slag,' 'Flyash,' 'Water,' 'Superplasticizer,' 'Coarse Aggregate,' 'Fine Aggregate,' 'Age,' and the target 'Strength.' Analyzing these helps build accurate predictive models for concrete strength.
+2. Utilized Pandas, and sns to perform exploratory data analysis (EDA), and seamlessly imported the CSV files for comprehensive analysis and further insights extraction.
 
-**Step 2 Data Filtering :**
+3. Demonstrated proficiency by developing a dynamic web page showcasing the prediction of User input.
 
-The dataset was initially found to be complete, containing no missing values or apparent data discrepancies. As a result, there was no need for imputation or handling missing values. The dataset was considered ready for further analysis without requiring any additional steps to address missing data.
+# **Results/Insights:** #
 
-However, it's important to note that even though the dataset had no missing values initially, it's a good practice to conduct a thorough review and validation to ensure data integrity and completeness before proceeding with the analysis.
-
-**Step 3 Exploratotry Data Analysis :**
-
-Data Loading and Inspection: Load the dataset and examine its structure, dimensions, and features.
-
-Summary Statistics: Calculate basic statistics (mean, median, standard deviation, min, max) for numerical features to understand their central tendencies and variability.
-
-Descriptive Analysis: Explore the distribution and summary of each feature, identifying outliers, unusual patterns, or missing values.
-
-Visualization: Create visualizations (histograms, box plots, scatter plots) to represent feature distributions and relationships between variables.
-
-Correlation Analysis: Examine the correlation between features to identify potential multicollinearity and relationships that can aid in feature selection.
-
-Univariate and Bivariate Analysis: Analyze individual features (univariate) and the relationships between pairs of features (bivariate) to understand their behavior and interactions.
-
-**Step 4 Data Analysis :**
-
-* domain understanding
-
-Definition: Concrete strength refers to the ability of concrete to withstand various types of loads or stresses without failing or losing its structural integrity.
-
-Importance: Accurately predicting concrete strength is critical for ensuring the safety and durability of structures. It influences the design, construction, and maintenance phases of a construction project.
-
-* Factors Influencing Concrete Strength:
-
-Material Composition: The types and proportions of cement, aggregates, water, and admixtures used in the concrete mix significantly impact its strength.
-Curing Conditions: The curing process, including temperature, humidity, and duration, affects the hydration of cement and consequently the strength development of concrete.
-Mixing and Placement Techniques: Proper mixing, placing, and consolidation of the concrete during construction play a vital role in achieving the desired strength.
-
-**Step 5 Data Preprocessing and Preparation :**
-
-Feature Selection and Engineering:
-Select relevant features that are likely to have a significant impact on predicting the target variable. You may also create new features through feature engineering if needed.
-
-Train-Test Split:
-Split the dataset into training and testing sets using the train-test split technique. This allows for model training on one portion of the data and evaluation on another to assess model performance.
-
-Feature Scaling (Standardization):
-Scale the features to ensure they all have a similar influence on the model. Standardization (Standard Scaler) is a common technique used for this purpose.
-
-**Step 6 Machine Learning Model :**
-
-A regression problem in machine learning revolves around predicting a continuous numerical outcome based on a set of input features. Unlike classification, where the goal is to assign instances to discrete classes, regression entails estimating a value that falls along a continuous spectrum. This prediction is the compressive strength of concrete. The fundamental premise of a regression model is to discern and learn the underlying patterns and relationships between the input features and the continuous target variable. Through this understanding, the model can make accurate predictions for unseen or future data points.
-
-In our project, we employed a range of regression models, including linear regression, random forest, decision tree, SVM, we fine-tuned these models, optimizing their performance and ensuring accurate predictions for our specific application.
-
-# **3 DATA INSIGHTS**
-
-There are some Key details found that follow:
-
-* ## **Deployment of our project :** ##
-
-![Concrete_Strength_Prediction_Video](https://github.com/Jaydeep1-Chotaliya/Concrete_Strength_Prediction/assets/129647680/6ada7331-db6a-4ab4-bc67-198ccd5af754)
-
-
-* Deployment transitions a project from development/testing to the live production environment.
-* Goal: Make the project fully operational for intended users and stakeholders.
-* Successful deployment ensures smooth function and value delivery.
-
-* ## Key Details ##
-
-![download](https://github.com/Jaydeep1-Chotaliya/Concrete_Strength_Prediction/assets/129647680/c6d8986c-99da-4162-b23b-21c576e91131)
-
-* According to the observed plot, it is evident that the strength of a concrete column is highly dependent on the type of cement used, superplasticizer content, and age of the concrete.
+1 According to the observed plot, it is evident that the strength of a concrete column is highly dependent on the type of cement used, superplasticizer content, and age of the concrete.
 * These factors play a significant role in determining the overall strength and durability of the concrete structure.
 
-![download (1)](https://github.com/Jaydeep1-Chotaliya/Concrete_Strength_Prediction/assets/129647680/2000e82a-bb43-4687-a363-d794fa765fcd)
+```
+fig, ax = plt.subplots(figsize=(10,8))
+sns.barplot(x=sorted_correlations.index, y=sorted_correlations,ax=ax)
+plt.xticks(rotation=90)
+plt.xlabel('Features')
+plt.ylabel('Absolute Correlation')
+plt.show()
+```
+![download](https://github.com/Jaydeep1-Chotaliya/Concrete_Strength_Prediction/assets/129647680/9c7f2621-7067-4728-8c72-3bfac3b0ac8e)
 
-* The distribution of concrete strength within the dataset indicates a predominant concentration of data points ranging between 30 csMPa to 50 csMPa. This interval appears to be the most common range for concrete compressive strength.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2 The distribution of concrete strength within the dataset indicates a predominant concentration of data points ranging between 30 csMPa to 50 csMPa. This interval appears to be the most common range for concrete compressive strength.
 * Understanding this distribution is crucial, as it provides valuable insights into the typical strength levels observed within the dataset.
 * However, it's essential to note that concrete strength can vary significantly based on multiple factors, and analyzing a broader range of strengths is important for a comprehensive understanding of the material's behavior and properties.
 
-# **4 MACHINE LEARNING MODEL PERFORMANCE**
+```
+sns.displot(df, x="csMPa",height=8, aspect=1.5)
+plt.show()
+```
+![disc_plot](https://github.com/Jaydeep1-Chotaliya/Concrete_Strength_Prediction/assets/129647680/ecb01590-1436-4ac6-b362-63acad91e749)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3 MACHINE LEARNING MODEL PERFORMANCE
 
 | **Model Name** | **Mean Squared Error (MSE)** | **Mean Absolute Error (MAE)** | **Coefficient Of Determination** |
 | ------------- | :---: | :---: | :---: |
@@ -107,7 +69,16 @@ There are some Key details found that follow:
 | Decision Tree Regression | 57.27 | 4.78 | 0.78 |
 | Support Vector Regression | 82.27 | 7.12 | 0.69 |
 
-# **5 CONCLUSION**
+# **Deployment of our project:** #
+
+![Concrete_Strength_Prediction_Video](https://github.com/Jaydeep1-Chotaliya/Concrete_Strength_Prediction/assets/129647680/6ada7331-db6a-4ab4-bc67-198ccd5af754)
+
+
+* Deployment transitions a project from development/testing to the live production environment.
+* Goal: Make the project fully operational for intended users and stakeholders.
+* Successful deployment ensures smooth function and value delivery.
+
+# **CONCLUSION**
 
 * The study extensively analyzed Compressive Strength Data.
 * Diverse Machine Learning techniques were employed to predict Concrete Compressive Strength.
@@ -115,7 +86,7 @@ There are some Key details found that follow:
 * The Random Forest Regressor stood out with the lowest RMSE of 5.35, suggesting its high effectiveness.
 * This finding underscores the potential of Random Forest for precise compressive strength prediction.
 
-# **6 Summary of limitations/challenges faced**
+# **Summary of limitations/challenges faced**
 
 * Finding concrete strength is challenging due to the complexity of terminology and processes.
 
