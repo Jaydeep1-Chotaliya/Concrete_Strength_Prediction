@@ -69,6 +69,8 @@ plt.show()
 | Decision Tree Regression | 57.27 | 4.78 | 0.78 |
 | Support Vector Regression | 82.27 | 7.12 | 0.69 |
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # **Deployment of our project:** #
 
 ![Concrete_Strength_Prediction_Video](https://github.com/Jaydeep1-Chotaliya/Concrete_Strength_Prediction/assets/129647680/6ada7331-db6a-4ab4-bc67-198ccd5af754)
